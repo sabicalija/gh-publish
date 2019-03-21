@@ -13,7 +13,7 @@ module.exports = {
     [
       "@semantic-release/github",
       {
-        assets: [{ path: "test", label: "test file" }, { path: "testdir", label: "test folder" }]
+        assets: [{ path: "test", label: "test file" }, { path: "testdir/*", label: "test folder" }]
       }
     ]
   ],
