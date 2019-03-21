@@ -1,7 +1,4 @@
-const config = {
-  name: "Release Name",
-  url: "https://github.com/asterics/asterics-docs"
-};
+const config = '{"name": "Release name", "url": "http://url/release/1.0.0"}';
 console.error("publish.js");
 console.error(process.argv);
-console.log(JSON.stringify(config));
+console.log(config);
