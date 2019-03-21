@@ -1,3 +1,10 @@
+# [3.0.0](https://github.com/sabicalija/gh-publish/compare/v2.2.2...v3.0.0) (2019-03-21)
+
+
+### Features
+
+* **release:** add changelog ([3a57022](https://github.com/sabicalija/gh-publish/commit/3a57022))
+
 ## [2.2.2](https://github.com/sabicalija/gh-publish/compare/v2.2.1...v2.2.2) (2019-03-21)
 
 
