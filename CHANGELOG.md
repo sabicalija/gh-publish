@@ -1,0 +1,12 @@
+## [2.2.2](https://github.com/sabicalija/gh-publish/compare/v2.2.1...v2.2.2) (2019-03-21)
+
+
+### Bug Fixes
+
+* **release:** awesome new :apple: ([e0ea89e](https://github.com/sabicalija/gh-publish/commit/e0ea89e))
+
+
+### BREAKING CHANGES
+
+* **release:** * and the weather is :cloudy:
+* but i don't care :smile:
