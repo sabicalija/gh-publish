@@ -17,6 +17,20 @@ module.exports = {
       }
     ],
     [
+      "@semantic-release/commit-analyzer",
+      {
+        preset: "angular",
+        releaseRules: [
+          { type: "docs", scope: "README", release: "patch" },
+          { type: "refactor", release: "patch" },
+          { type: "major", release: "major" }
+        ],
+        parserOpts: {
+          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"]
+        }
+      }
+    ],
+    [
       "@semantic-release/release-notes-generator",
       {
         preset: "angular",
