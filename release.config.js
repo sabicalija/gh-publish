@@ -27,6 +27,12 @@ module.exports = {
           commitsSort: ["subject", "scope"]
         }
       }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        changelogFile: "docs/CHANGELOG.md"
+      }
     ]
   ],
   dryRun: false,
