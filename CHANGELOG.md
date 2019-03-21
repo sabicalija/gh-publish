@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/sabicalija/gh-publish/compare/v3.0.0...v4.0.0) (2019-03-21)
+
+
+### Bug Fixes
+
+* nothing new. ([824d35d](https://github.com/sabicalija/gh-publish/commit/824d35d))
+
+
+### BREAKING CHANGES
+
+*  * actually no breaking changes
+ * just for testing purposes :trollface:
+
 # [3.0.0](https://github.com/sabicalija/gh-publish/compare/v2.2.2...v3.0.0) (2019-03-21)
 
 

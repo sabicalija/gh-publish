@@ -47,6 +47,13 @@ module.exports = {
       {
         changelogFile: "CHANGELOG.md"
       }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        prepareCmd: "node release.js ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}",
+        publishCmd: `console.log({"name": "Release name", "url": "http://url/release/1.0.0"})`
+      }
     ]
   ],
   dryRun: false,
